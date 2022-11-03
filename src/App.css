@@ -1,0 +1,6 @@
+.main{
+  background: url("./components/img/bg.jpg"),rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  background-blend-mode: darken;
+  height: 100vh;
+}
