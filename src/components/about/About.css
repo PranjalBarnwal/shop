@@ -1,0 +1,19 @@
+:root{
+    --skew-var:9deg;
+}
+.order1{
+    position: relative; 
+     top: 7rem;
+    width: 100%;
+    font-size: 2rem;
+    height: 30rem;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    transform: skewY(calc(-1 * var(--skew-var)));
+    
+}
+.order1-wrapper{
+    padding-top: 3rem;
+    transform: skewY(var(--skew-var));
+    /* transform: skewY(4deg); */
+}
