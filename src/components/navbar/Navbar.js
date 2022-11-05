@@ -17,49 +17,21 @@ function Navbar() {
               Home
             </a>
           </li>
-          
-          
-          
-
-
-          
-
-
-
-
-
-
-
-
-
-
-
-
-          
-          
           <li>
             <a className="nav-items our-products" href="#Products">Our Products</a>
-            <div className="space-below-ourproducts">
-            <div className="products-section-list"></div>  
+            <div className="wrapper">
+            <div className="products-section">
+           <div className="sides"></div>
+           <div className="img "></div>
+           <div className="img "></div>
+           <div className="img"></div>
+           <div className="img"></div>
+           <div className="img"></div>
+           <div className="sides"></div>
+              </div>  
             </div>
           </li>
-          
-          
-          
-          
-
-
-
-          
-          
-          
-          
-          
-          
-          
-          
-          
-          <li>
+        <li>
             <a className="nav-items" href="#AboutUs">
               About Us
             </a>
