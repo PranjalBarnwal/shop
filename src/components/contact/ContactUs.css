@@ -1,0 +1,36 @@
+.body{
+    background-color: #0048e9;
+    background-image: linear-gradient(160deg, #0048e9 0%, #80D0C7 100%);
+    
+
+}
+.head{
+    text-decoration: underline;
+   
+    text-align: center;
+    font-size: 3rem;
+    font-family: "Josefin Sans", sans-serif;
+}
+.reach{
+    margin: 1rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.locate-shop{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.branch{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+.shop{
+    margin: 2rem;
+    font-size: 2rem;
+    text-decoration: underline;
+}
