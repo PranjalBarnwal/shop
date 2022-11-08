@@ -1,19 +1,74 @@
-:root{
-    --skew-var:9deg;
+/* importing fonts */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap");
+
+.order1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
-.order1{
-    position: relative; 
-     top: 7rem;
-    width: 100%;
-    font-size: 2rem;
-    height: 30rem;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    transform: skewY(calc(-1 * var(--skew-var)));
+.header {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.subtext {
+
+  max-width: 30rem;
+ margin-right: 15rem;
+  text-align: left;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 1rem;
+}
+.subtext-img{
+    margin: 0px 6px;
+    width: 130px;
+    height: 180px;
+    background-color: seagreen;
+    border: 3px solid white;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.point-img{
+    margin: 0px 6px;
+    width: 130px;
+    height: 180px;
+    background-color: seagreen;
+    border: 3px solid white;
+    border-radius: 13px;
+    cursor: pointer;
+}
+.why-customer {
+   
     
+     text-align: center;
+     font-family: "Maven Pro", sans-serif;
+     font-size: 1rem;
+   }
+
+.points {
+    max-width: 30rem;
+    margin-right: 15rem;
+     text-align: left;
+     font-family: "Maven Pro", sans-serif;
+     font-size: 1rem;
 }
-.order1-wrapper{
-    padding-top: 3rem;
-    transform: skewY(var(--skew-var));
-    /* transform: skewY(4deg); */
+.points-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.sub-points {
+    
+    margin: 1.875rem 0rem;
+    text-align: center;
+    font-family: "Maven Pro", sans-serif;
+    font-size: 1rem;
+  text-decoration: underline;
+  
 }
