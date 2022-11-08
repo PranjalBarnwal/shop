@@ -6,7 +6,7 @@ function App() {
     <div className="main">
       {/* try z-index on nav and abput using div */}
      <Navbar/>
-     {/* <About/> */}
+     <About/>
     </div>
   );
 }

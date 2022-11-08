@@ -1,6 +1,5 @@
 .main{
-  background: url("./components/img/bg1.jpg"),rgba(255, 255, 255, 0.6);
-  /* background: url("./components/img/bg.jpg"),rgba(255, 255, 255, 0.6); */
+  /* background: url("./components/img/bg.jpg"),rgba(255, 255, 255, 0.3); */
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   
   background-size: cover;

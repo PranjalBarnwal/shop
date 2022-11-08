@@ -1,22 +1,57 @@
-import React from 'react'
-import "../about/About.css"
-const about = () => {
+import React from "react";
+import "./About.css";
+const About = () => {
   return (
     <div>
-      <section className="order1">
-        <div className="order1-wrapper">
-        <h1 className='heading'>About Us</h1>
-         <div className="sub-heading">
-          <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, aut.</b>
-          <div>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque, saepe repellendus, placeat quam ipsam enim obcaecati, nesciunt corporis cumque necessitatibus pariatur? Fugiat eum quibusdam minus. Doloribus atque praesentium eligendi corporis, nemo molestias debitis maiores, blanditiis officiis quia architecto. Deleniti voluptates blanditiis hic natus quas explicabo beatae inventore? Excepturi ea id perferendis, explicabo sit unde eum dolorem vitae corporis suscipit facilis sequi mollitia, ipsam quos ipsum cupiditate tenetur rerum, quod atque voluptate ducimus! Ipsum odit repellendus nisi libero ducimus at debitis corrupti perspiciatis modi reprehenderit qui excepturi voluptas, quidem, omnis dolore.
+      <section className="about-us">
+        <div className="header">About Us</div>
+        <div className="order1">
+          <div className="subtext">
+            Sourav Traders is one the most reputed and trustworthy name in
+            Jharkhand when it comes to tiles, granites and sanitarywares. We
+            have been in this industry for last 25 years.
           </div>
+          <img src="" alt="" className="subtext-img" />
+        </div>
+        <div className="why-customer">
+          <b>Why do customer choose us?</b>
+        </div>
+
+        <div className="sub-points ">Quality of Products</div>
+        <div className="points-container">
+          <div className="points">
+            We are a one-stop destination for all your tile needs. Whether
+            you're looking for flooring, wall tiles or any other types of
+            ceramic tile, we have it all! With numerous years experience in this
+            industry, we know what our customers need
           </div>
+          <img src="" alt="" className="point-img" />
+        </div>
+
+        <div className="sub-points ">The best prices in town</div>
+        <div className="points-container">
+          <div className="points">
+            We offer the best prices in town on all our tiles, granites and
+            sanitarywares so that you can make your home truly your own with
+            whatever budget you have. Our products are competitively priced and
+            our customer service is second to none!
+          </div>
+
+          <img src="" alt="" className="point-img" />
+        </div>
+        <div className="sub-points ">About Team</div>
+        <div className="points-container">
+          <div className="points">
+            We have a team of trained and friendly staffs headed by Gopal
+            Prasad(Founder) and his son Sourav Traders( Managing Director) ,
+            working solely towards delivering customers , what they desire.
+          </div>
+
+          <img src="" alt="" className="point-img" />
         </div>
       </section>
-      <section className="order2"></section>
     </div>
-  )
-}
+  );
+};
 
-export default about
+export default About;
