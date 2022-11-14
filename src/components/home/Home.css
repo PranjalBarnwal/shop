@@ -1,23 +1,40 @@
-section{
-    background-color: #f1d1d1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    
-}
-.right{
-    width: 20%;
-}
-.left{
-    width: 50%;
-    position: relative;
-}
-p{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    padding: 100px;
-    transform: translate(-50%,-50%);
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
 
+section {
+  background-color: #f1d1d1;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;
+    align-items: center; */
+}
+.left {
+  
+  min-width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: red; */
+  font-family: "Gilroy-Regular", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  box-sizing: border-box;
+  padding: 120px;
+}
+span {
+  font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+  border-bottom: 2px solid rgb(90, 87, 87);
+  margin-left: 38px;
+}
+.right {
+  min-width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+img {
+  
+  width: 40rem;
 }
