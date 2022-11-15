@@ -46,7 +46,7 @@ function Navbar() {
           </li>
         </ul>
       </nav>
-      <hr />
+      {/* <hr /> */}
     </div>
   );
 }

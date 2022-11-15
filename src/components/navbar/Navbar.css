@@ -5,7 +5,9 @@
     padding: 0;
 }
 .navbar {
-    /* position: absolute; */
+/*    
+    position: sticky;
+    top: 10px; */
     background-color: rgb(46, 41, 41);
 }
 .nav-list {

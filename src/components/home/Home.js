@@ -4,7 +4,7 @@ import bathroom from "../img/bathroom.webp"
 import "./Home.css"
 const Home = () => {
   return (
- <section className="main">
+ <section className="home-main">
   <div className="left">
     <div className="left-top">Experience the best <strong>Quality</strong> and <strong>Price</strong> at</div>
     <div className="left-bottom">Sourav Traders</div>
