@@ -7,11 +7,12 @@
 .navbar {
    
     position: sticky;
-    top: 10px;
+    top: 0px;
     background-color: #2e2929;
 }
 .nav-list {
   align-items: center;
+  height: 17vh;
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -21,7 +22,7 @@
   z-index: 10;
 }
 
-/* .nav-list li nav-items { */
+
 .nav-items {
   color: rgb(143, 143, 143); 
 
@@ -98,7 +99,7 @@
    height: 12rem;
    top: 5.5rem;
    left: 0rem;
-   background-color: rgba(237, 237, 237, 0.3); 
+   background-color: #ededed4d; 
    align-items: center;
    justify-content: center;
    opacity: 0;
@@ -135,6 +136,7 @@
  }
 
  .toggle-button{
+  z-index: 12;
   position: absolute;
   top: .75rem;
   right: 1rem;
@@ -152,10 +154,22 @@
  }
  
 @media (max-width:500px){
-.toggle-button{
+.name{
+  height: 16vh;
+  width: 100%;
+  background-color:rgb(51, 51, 51) ;
+}
+  .toggle-button{
   display: flex;
 }
-.nav ul li{
+.nav-list{
   display: none;
+}
+.nav-list{
+  flex-direction: column;
+  gap: 20px;
+}
+.nav-list.active{
+  display: flex;
 }
 }

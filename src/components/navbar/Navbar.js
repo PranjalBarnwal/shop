@@ -2,24 +2,24 @@ import React from "react";
 import logo1 from "../img/logo1.png";
 import "./Navbar.css";
 function Navbar() {
+  const toggleButton=document.getElementsByClassName('toggle-button')[0];
+  const navlist = document.getElementsByClassName('nav-list')[0];
+
+  toggleButton.addEventListener('click',()=>{
+    navlist.classList.toggle('active')
+  })
   return (
     <nav className="navbar">
-      <ul className="nav-list">
-        {/* <li className="name"> */}
-        <div className="name">
-          <img src={logo1} alt="" className="logo" />
-        </div>
-       
-       
-       
+      <div className="name">
+        <img src={logo1} alt="" className="logo" />
+      </div>
         <a href="#" className="toggle-button">
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
         </a>
-  
-       
-       
+      <ul className="nav-list">
+
         <li>
           <a className="nav-items" href="#">
             Home
