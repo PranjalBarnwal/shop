@@ -9,10 +9,11 @@
     position: sticky;
     top: 0px;
     background-color: #2e2929;
+    
 }
 .nav-list {
   align-items: center;
-  height: 17vh;
+  height: 22vh;
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -155,7 +156,7 @@
  
 @media (max-width:500px){
 .name{
-  height: 16vh;
+  height: 21vh;
   width: 100%;
   background-color:rgb(51, 51, 51) ;
 }
@@ -168,8 +169,12 @@
 .nav-list{
   flex-direction: column;
   gap: 20px;
+  
 }
-.nav-list.active{
+.navbar{
+  /* height: 23vh; */
+}
+.active{
   display: flex;
 }
 }

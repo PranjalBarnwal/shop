@@ -34,3 +34,17 @@ justify-content: center;
     font-size: 2rem;
     text-decoration: underline;
 }
+
+.map {
+    width: clamp(300px, 35vw, 500px);
+}
+
+iframe {
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    .locate-shop {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,25 @@
+.first{
+    position: relative;
+    top: -3rem;
+}
+.second{
+    position: relative;
+    top: 3.2rem;
+}
+.products-img{
+    margin-left: 100px;
+    z-index: -1;
+}
+/* .products{
+    display: flex;
+    flex-wrap: wrap;
+    
+    height: auto;
+}
+.products .product-boxes img{
+    height: 20rem;
+    width: 30rem;
+}
+.product-boxes{
+height: 2rem;
+} */

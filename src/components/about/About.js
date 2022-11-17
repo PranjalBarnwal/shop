@@ -2,9 +2,8 @@ import React from "react";
 import "./About.css";
 const About = () => {
   return (
-    <div>
       <section className="about-us">
-        <div className="header">About Us</div>
+        <div className="header" style={{marginBottom: '1rem'}}>About Us</div>
         <div className="order1">
           <div className="subtext">
             Sourav Traders is one the most reputed and trustworthy name in
@@ -47,10 +46,9 @@ const About = () => {
             working solely towards delivering customers , what they desire.
           </div>
 
-          <img src="" alt="" className="point-img" />
+          <img src="" alt="" className="point-img  last" />
         </div>
       </section>
-    </div>
   );
 };
 
