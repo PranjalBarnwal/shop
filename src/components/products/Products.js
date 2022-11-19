@@ -157,8 +157,7 @@ const Products = () => {
           className="products-img"
         />
       </marquee>
-
-
+      <h3>OUR PRODUCTS</h3>
       <section className="products">
         <div className="product-boxes">
           <img src="" alt="" />
@@ -181,8 +180,6 @@ const Products = () => {
           <h3>Product-Name</h3>
         </div>
       </section>
-
-
     </div>
   );
 };
