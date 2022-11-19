@@ -11,7 +11,7 @@ import white from "../img/white.png";
 const Products = () => {
   return (
     <div className="products-main">
-      <marquee behavior="up" direction="right" vspace="40px" scrollamount="15">
+      <marquee className="marq" behavior="up" direction="right" vspace="40px" scrollamount="15">
         <img
           src={first}
           alt=""
@@ -157,8 +157,7 @@ const Products = () => {
           className="products-img"
         />
       </marquee>
-
-
+      <h3 style={{ margin: "20px" }}>OUR PRODUCTS</h3>
       <section className="products">
         <div className="product-boxes">
           <img src="" alt="" />
@@ -181,8 +180,6 @@ const Products = () => {
           <h3>Product-Name</h3>
         </div>
       </section>
-
-
     </div>
   );
 };
