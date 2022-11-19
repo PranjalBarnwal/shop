@@ -3,7 +3,9 @@
   position: relative;
   top: -3rem;
 }
-
+h3 {
+  text-align: center;
+}
 .second {
   z-index: -1;
   position: relative;
@@ -14,7 +16,8 @@
 }
 marquee {
   z-index: -1;
-  margin-bottom: 60px;
+  /* margin-bottom: 30px; */
+  border-bottom: 2px solid grey;
 }
 .products {
   display: flex;
@@ -40,6 +43,7 @@ section .product-boxes img {
 }
 section .product-boxes h3 {
   text-align: center;
+  margin: 20px;
 }
 /* .products{
     display: flex;

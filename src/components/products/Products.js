@@ -157,7 +157,7 @@ const Products = () => {
           className="products-img"
         />
       </marquee>
-      <h3>OUR PRODUCTS</h3>
+      <h3 style={{ margin: "20px" }}>OUR PRODUCTS</h3>
       <section className="products">
         <div className="product-boxes">
           <img src="" alt="" />
