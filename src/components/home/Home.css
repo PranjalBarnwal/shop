@@ -71,21 +71,31 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#60EFFF", en
 }
 .left-top{
   font-size: 2rem;
-  
+  min-width: 300px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 }
 .left-bottom{
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* min-width: 50px; */
+  /* max-width: 200px; */
+  font-size: 3rem;
+  /* position: relative;
  display: flex;
  left: -2rem;
  font-size: 3rem;
  z-index: 0;
  align-items: center;
- justify-content: center;
+ justify-content: center; */
 }
 .home-img{
-  height: 60%;
+  height: 50%;
   position: relative;
   left: -7rem;
 }
 
 }
+

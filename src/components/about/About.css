@@ -28,6 +28,7 @@
 .subtext-img,
 .point-img {
     margin: 0px 6px;
+    height: 180px;
     width: clamp(150px, 40vw, 250px);
     background-color: seagreen;
     border-radius: 5px;
