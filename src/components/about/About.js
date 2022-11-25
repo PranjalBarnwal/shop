@@ -42,7 +42,7 @@ const About = () => {
         <div className="points-container">
           <div className="points">
             We have a team of trained and friendly staffs headed by Gopal
-            Prasad(Founder) and his son Sourav Traders( Managing Director) ,
+            Prasad (Founder) and his son Sourav Suman (Managing Director) ,
             working solely towards delivering customers , what they desire.
           </div>
 

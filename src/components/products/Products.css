@@ -1,3 +1,5 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+
 .first {
     /* z-index: -1; */
     position: relative;
@@ -33,29 +35,47 @@
     justify-content: center;
     align-items: center;
   }
-  section .product-boxes img {
+  section .product-boxes div img {
     background-color: greenyellow;
     height: 20rem;
     width: 70vh;
-    /* display: flex;
-    justify-content: space-around;
-    align-items: center; */
+    margin-top: 20px;
+    display: flex;
+    
+    align-items: center;
+    transition: 0.5s;
+  }
+  section .product-boxes div img:hover{
+     opacity: 0.4;
+
+  }
+  section .product-boxes div button{
+    background-color: transparent;
+    font-weight: 700;
+    border: 0.1px solid;
+    cursor: pointer;
+    font-family: "Gilroy-Regular", sans-serif; 
+    position: relative;
+    top:-3rem;
+    padding: 10px;
+    left:2.3rem;
+    /* display: none; */
+  }
+  section .product-boxes div img :hover section .product-boxes div button{
+    /* display: flex; */
   }
   section .product-boxes h3 {
     text-align: center;
     margin: 20px;
   }
-  /* .products{
-      display: flex;
-      flex-wrap: wrap;
-      
-      height: auto;
-  }
-  .products .product-boxes img{
-      height: 20rem;
-      width: 30rem;
+@media (max-width:500px){
+  section .product-boxes div img{
+    width: 30vh;
+    height: 20vh;
   }
   .product-boxes{
-  height: 2rem;
-  } */
-  
+    background-color: rgb(221, 221, 221);
+    margin: 10px;
+    width: 35vh;
+  }
+}
