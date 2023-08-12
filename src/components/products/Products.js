@@ -168,7 +168,7 @@ const Products = () => {
       </h3>
       <section className="products">
         <div className="product-boxes">
-          <div>
+          <div className="manual">
             <img src="" alt="" />
             <button>DOWNLOAD CATALOGUE</button>
           </div>
